@@ -1,5 +1,8 @@
 circuit-extraction-stability
 
+This repository contains the official code for the paper
+"Circuit Claims Depend on What Is Extracted and How It Is Compared."
+
 This repository includes code in runtime/inference/ adapted from the
 circuit_sparsity codebase (https://github.com/openai/circuit_sparsity),
 Copyright 2025 OpenAI, licensed under the Apache License, Version 2.0.
