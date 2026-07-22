@@ -1,4 +1,6 @@
-# Supplementary Code
+# Circuit Claims Depend on What Is Extracted and How It Is Compared
+
+Official code for the paper [*Circuit Claims Depend on What Is Extracted and How It Is Compared*](https://arxiv.org/abs/2607.18921) by Yang Sheng and Jie Fu.
 
 This repository contains the core scripts used for the controlled circuit-reproducibility study.
 
@@ -36,3 +38,17 @@ The factorized query/key and fixed-loss pruning scripts in `circuits/` use the s
 ## License
 
 Apache License 2.0 (see `LICENSE`).
+
+## Citation
+
+```bibtex
+@misc{sheng2026circuitclaimsdependextracted,
+      title={Circuit Claims Depend on What Is Extracted and How It Is Compared},
+      author={Yang Sheng and Jie Fu},
+      year={2026},
+      eprint={2607.18921},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2607.18921},
+}
+```
