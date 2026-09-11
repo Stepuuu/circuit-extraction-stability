@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 290" width="1200" height="290" role="img" aria-labelledby="title description">
+  <title id="title">Circuit Claims Depend on What Is Extracted and How It Is Compared</title>
+  <desc id="description">Paper title on a muted blue and sage gradient, with slowly moving waves along the lower edge.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="0.4">
+      <stop offset="0" stop-color="#7d8fab"/>
+      <stop offset="0.5" stop-color="#688da1"/>
+      <stop offset="1" stop-color="#789b8c"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .page { fill: #ffffff; }
+    .wave { animation: drift 18s ease-in-out infinite alternate; }
+    .wave-two { animation-duration: 23s; animation-delay: -8s; }
+    .wave-front { animation-duration: 26s; animation-delay: -14s; }
+    @keyframes drift {
+      from { transform: translateX(-65px); }
+      to { transform: translateX(65px); }
+    }
+    @media (prefers-color-scheme: dark) { .page { fill: #0d1117; } }
+    @media (prefers-reduced-motion: reduce) { .wave { animation: none; } }
+  </style>
+  <rect width="1200" height="290" fill="url(#background)"/>
+  <g fill="#ffffff" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="49">
+    <text x="600" y="109">Circuit Claims Depend on What Is Extracted</text>
+    <text x="600" y="172">and How It Is Compared</text>
+  </g>
+  <path class="wave" fill="#ffffff" fill-opacity="0.17" d="M-180 228 C40 208 170 271 410 245 S780 205 1010 242 S1270 265 1380 220 V310 H-180Z"/>
+  <path class="wave wave-two" fill="#ffffff" fill-opacity="0.23" d="M-180 250 C40 283 230 219 470 242 S830 284 1070 251 S1290 219 1380 241 V310 H-180Z"/>
+  <path class="page wave wave-front" d="M-180 272 C30 251 220 254 440 266 S800 286 1040 264 S1260 257 1380 272 V310 H-180Z"/>
+</svg>
